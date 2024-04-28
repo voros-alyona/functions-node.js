@@ -1,3 +1,4 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-console.log(+"1" +  "1" + "2");
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const channel = getChannel(computedAppVersion);
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
