@@ -1,3 +1,1 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const toggleBool = () => (bool = !bool);
-const result = await makeHttpRequest(url);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
