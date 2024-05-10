@@ -1,4 +1,3 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const channel = getChannel(computedAppVersion);
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const uniqueArr = (arr) => [...new Set(arr)];
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const channelName = getChannelName(channel);
