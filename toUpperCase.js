@@ -1,2 +1,1 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const channel = getChannel(computedAppVersion);
+var arr1 = "john".split('');
