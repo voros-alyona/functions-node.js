@@ -1,3 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const results = await Promise.all(resultingPromises);
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+var arr2 = arr1.reverse();
+console.log("0 && 1 = "+(0 && 1));
+const allResults = await Promise.all(items.map(async (item) => {}));
