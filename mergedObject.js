@@ -1,3 +1,2 @@
-var arr2 = arr1.reverse();
-console.log("0 && 1 = "+(0 && 1));
-const allResults = await Promise.all(items.map(async (item) => {}));
+console.log(false == '0');
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
