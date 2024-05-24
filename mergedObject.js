@@ -1,2 +1,2 @@
-console.log(false == '0');
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const reversedString = str => str.split('').reverse().join('');
