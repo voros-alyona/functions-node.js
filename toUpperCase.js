@@ -1,2 +1,2 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const channelName = getChannelName(channel);
+var DELIM_SIZE = 4;
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
