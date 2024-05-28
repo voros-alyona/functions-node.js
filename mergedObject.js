@@ -1,2 +1,2 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const reversedString = str => str.split('').reverse().join('');
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const buildOutputPath = path.join(repositoryRootPath, 'out');
