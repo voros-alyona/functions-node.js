@@ -1,2 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const allResults = await Promise.all(items.map(async (item) => {}));
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
