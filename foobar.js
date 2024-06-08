@@ -1,3 +1,3 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+var DELIM_SIZE = 4;
+console.log( "A" - "B" + 2);
+var arr3 = "jones".split('');
