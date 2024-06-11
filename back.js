@@ -1,2 +1,3 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const getRandomBoolean = () => Math.random() >= 0.5;
