@@ -1,3 +1,3 @@
-var DELIM_SIZE = 4;
-console.log( "A" - "B" + 2);
-var arr3 = "jones".split('');
+const merge = [...new Set([...a, ...b])];
+[foo, bar] = [bar, foo];
+const executableName = getExecutableName(channel, appName);
