@@ -1,3 +1,2 @@
-const merge = [...new Set(a.concat(b))];
-const merge = (a, b) => a.concat(b);
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const uniqueArray = arr => [...new Set(arr)];
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
