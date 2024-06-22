@@ -1,1 +1,3 @@
-console.log(+"1" +  "1" + "2");
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const merge = (a, b) => [...a, ...b];
+const isEmptyObject = obj => Object.keys(obj).length === 0;
