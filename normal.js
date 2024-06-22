@@ -1,2 +1,1 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
