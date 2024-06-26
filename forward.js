@@ -1,3 +1,2 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const merge = (a, b) => [...a, ...b];
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const goToTop = () => window.scrollTo(0, 0);
