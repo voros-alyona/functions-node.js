@@ -1,2 +1,2 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const goToTop = () => window.scrollTo(0, 0);
+function myAPITS(someString: string, someNum: number) { ... };
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
