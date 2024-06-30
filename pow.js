@@ -1,2 +1,3 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const isTabInView = () => !document.hidden;
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
