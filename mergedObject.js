@@ -1,1 +1,1 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
