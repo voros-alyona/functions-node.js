@@ -1,2 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+console.log("1 && 2 = "+(1 && 2));
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const merge = Object.assign({}, obj1, obj2);
