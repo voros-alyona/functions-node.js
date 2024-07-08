@@ -1,3 +1,1 @@
-console.log( "A" - "B" + "2");
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const merge = (a, b) => a.concat(b);
+console.log("1 && 2 = "+(1 && 2));
