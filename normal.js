@@ -1,2 +1,2 @@
 const results = await Promise.all(resultingPromises);
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+var DELIM_SIZE = 4;
