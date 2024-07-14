@@ -1,3 +1,2 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const result = await makeHttpRequest(url);
-console.log( "A" - "B" + 2);
+const flattenedArray = arr => [].concat(...arr);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
