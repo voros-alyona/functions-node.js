@@ -1,1 +1,1 @@
-const merge = [...new Set([...a, ...b])];
+const randomBoolean = () => Math.random() >= 0.5;
