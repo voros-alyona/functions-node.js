@@ -1,2 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const result = await makeHttpRequest(url);
