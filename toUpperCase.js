@@ -1,1 +1,1 @@
-[foo, bar] = [bar, foo];
+const resultingPromises = urls.map((url) => makHttpRequest(url));
