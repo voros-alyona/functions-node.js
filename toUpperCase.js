@@ -1,3 +1,3 @@
-const merge = [...new Set([...a, ...b])];
-const isEven = (num) => num % 2 === 0;
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const executableName = getExecutableName(channel, appName);
+console.log("1 && 2 = "+(1 && 2));
+const isWeekday = (date) => date.getDay() % 6 !== 0;
