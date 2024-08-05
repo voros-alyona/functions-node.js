@@ -1,3 +1,1 @@
-const isTabInView = () => !document.hidden;
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
